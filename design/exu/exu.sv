@@ -271,6 +271,8 @@ module exu
    logic        div_finish_early;
    logic        freeze;
 
+   logic fp_test; // test for repository
+
 
    alu_pkt_t i0_ap_e1, i0_ap_e2, i0_ap_e3, i0_ap_e4;
    alu_pkt_t i1_ap_e1, i1_ap_e2, i1_ap_e3, i1_ap_e4;
